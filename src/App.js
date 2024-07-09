@@ -10,8 +10,8 @@ function App() {
       <h1>Maria</h1>
       <h2>Rosenholm</h2>
       <h3>Web</h3>
-      <h4>developer</h4>
-      <Menu buttonNames={buttonNames} />
+      <h4>developer</h4> 
+    { /* <Menu buttonNames={buttonNames} /> */ }
     </div>
   );
 }
