@@ -21,7 +21,7 @@ const Menu = ({ buttonNames }) => {
       <div className={classes} id="menuWrapper">
         {buttonNames.map((name) => {
           return (
-            <Link to={`/${name}`}>
+            <Link key={name} to={`/${name}`}>
               <div>
                 <p>{name}</p>
               </div>
