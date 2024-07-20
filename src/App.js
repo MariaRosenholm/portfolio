@@ -1,4 +1,5 @@
 import Menu from "./Components/menu";
+import Contact from "./Components/contact";
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
@@ -12,6 +13,7 @@ function App() {
       <h3>Web</h3>
       <h4>developer</h4> 
     { /* <Menu buttonNames={buttonNames} /> */ }
+    <Contact/>
     </div>
   );
 }

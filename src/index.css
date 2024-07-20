@@ -56,6 +56,50 @@ a {
   color: #190a18;
 }
 
+.contact{
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  animation-duration: 10s;
+  animation-iteration-count:initial;
+  animation-name: open;
+}
+
+#contact{
+  height: 80%;
+  width: 80%; 
+  background-color: rgb(55, 31, 45);
+  z-index: 1;
+  display:flex;
+  justify-content:center;
+  align-items: left;
+  flex-direction: column;
+  padding: 2em;
+  opacity: 90%;
+}
+
+#contact p{
+ font-family: "Inter";
+ font-size: 30px;
+ color: rgb(235, 197, 230);
+ animation-duration: 10s;
+ animation-iteration-count:initial;
+ animation-name: opa;
+ margin: 2vh;
+
+}
+
+#link{
+  color: rgb(241, 233, 240);
+  
+}
+
+#link:hover{
+  color: rgb(82, 34, 76);
+}
+
 #menuWrapper {
   display: flex;
   width: 80.5rem;
@@ -88,5 +132,41 @@ a {
   }
   100%{
     opacity: 40%;
+  }
+}
+
+@keyframes open {
+  0%{
+    position: fixed;
+    opacity: 0%;
+    height: 0%;
+  }
+  50%{
+    position: fixed;
+    opacity: 0%;
+    height: 0%;
+  }
+  60%{    
+    position: fixed;
+    top: 30%;
+    height: 30%;
+  }
+  100%{
+    position: fixed;
+    top: 0%;
+    height: 100%;
+  }
+}
+
+@keyframes opa {
+  70%{
+    opacity: 0%;
+  }
+  80%{    
+    opacity: 50%;
+    color: rgb(227, 117, 172);
+  }
+  100%{
+    opacity: 100%;
   }
 }
