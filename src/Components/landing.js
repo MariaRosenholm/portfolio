@@ -1,10 +1,10 @@
 const Landing = () => {
   return (
     <div className="Landing">
-      <h1>Maria</h1>
-      <h2>Rosenholm</h2>
-      <h3>Web</h3>
-      <h4>developer</h4> 
+      <p className="sname">Maria</p>
+      <p className="lname">Rosenholm</p>
+      <p className="title1">Web</p>
+      <p className="title2">developer</p> 
     </div>
   );
 }

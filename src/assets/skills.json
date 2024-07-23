@@ -1,0 +1,72 @@
+{
+  "DevOpsSkills": {
+    "1": {
+      "skill": "Incident Management"
+    },
+    "2": {
+      "skill": "Release management"
+    },
+    "3": {
+      "skill": "Deployment management (web and mobile)"
+    },
+    "4": {
+      "skill": "Service management planning and developing"
+    },
+    "5": {
+      "skill": "Integration planning and testing"
+    },
+    "6": {
+      "skill": "Test, preproduction / restricted and production environments set-up and configurations"
+    },
+    "7": {
+      "skill": "Functional testing in preproduction / restricted and production environments"
+    },
+    "8": {
+      "skill": "Risk assesment and management"
+    }
+  },
+  "TechSkills":{
+     "1": {
+        "skill": "WSO2 api manager"
+      },
+      "2": {
+        "skill": "IIS"
+      },
+      "3": {
+        "skill": "React and Redux"
+      },
+      "4": {
+        "skill": "Javascript"
+      },
+      "5": {
+        "skill": "Node and Express"
+      },
+      "6": {
+        "skill": "UI design and prototyping"
+      },
+      "7": {
+        "skill": "CSS3"
+      },
+      "8": {
+        "skill": "Jest"
+      },
+      "9": {
+        "skill": "Typescript"
+      },
+      "10": {
+        "skill": "PostgreSQL"
+      },
+      "11": {
+        "skill": "Jira"
+      },
+      "12": {
+        "skill": "HTML5"
+      },
+      "13": {
+        "skill": "Postman"
+      },
+      "14": {
+        "skill": "GIT"
+      }
+  }
+}

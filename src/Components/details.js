@@ -1,11 +1,11 @@
 import React from "react";
 import OpenInTab from "./link"
 
-const Contact = () => {
+const Details = () => {
 
 
   return (
-    <div className="contact">
+    <div className="details">
       <div  id="contact">
       <p>Thank you for checking my portfolio! </p>
       <p>
@@ -21,8 +21,9 @@ Please check my  <a id="link" onClick={OpenInTab}  href={"https://github.com/Mar
 </p>
         <p>This portfolio is still under development, but if you wish to contact me please either send message in <a id="link" onClick={OpenInTab}  href={"https://www.linkedin.com/in/mariarosenholm/"}>LinkedIn</a>  or send me an email <a id="link" onClick={(e) => {window.location.href ='mailto:contact@mariarosenholm.com';}} href={"mailto:contact@mariarosenholm.com"}>contact@mariarosenholm.com</a></p>
         </div>
+        <div id="skills"><ul><li></li></ul></div>
     </div>
   );
 };
 
-export default Contact;
+export default Details;
