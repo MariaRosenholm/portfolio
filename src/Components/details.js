@@ -1,5 +1,6 @@
 import React from "react";
 import OpenInTab from "./link"
+import Skills from "../assets/skills.json"
 
 const Details = () => {
 
@@ -21,7 +22,8 @@ Please check my  <a id="link" onClick={OpenInTab}  href={"https://github.com/Mar
 </p>
         <p>This portfolio is still under development, but if you wish to contact me please either send message in <a id="link" onClick={OpenInTab}  href={"https://www.linkedin.com/in/mariarosenholm/"}>LinkedIn</a>  or send me an email <a id="link" onClick={(e) => {window.location.href ='mailto:contact@mariarosenholm.com';}} href={"mailto:contact@mariarosenholm.com"}>contact@mariarosenholm.com</a></p>
         </div>
-        <div id="skills"><ul><li></li></ul></div>
+        <div id="skills"><h3>Operational Skills</h3>{Skills.DevOpsSkills.map((skill,i) => <p>{skill}</p>)}</div>
+        <div id="skills"><h3>Tech Skills</h3>{Skills.TechSkills.map((skill, i) => <p>{skill}</p>)}</div>
     </div>
   );
 };
