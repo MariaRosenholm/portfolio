@@ -24,6 +24,7 @@ const Details = () => {
   return (
     <div className="details">
       <div  id="contact">
+        <div id="backgroud" ></div>
       <p>Thank you for checking my portfolio! </p>
       <p>
 
@@ -37,7 +38,7 @@ My extensive experience in customer service and sales from the hospitality indus
 Please check my  <a id="link" onClick={OpenInTab}  href={"https://github.com/MariaRosenholm"}>GitHub</a> for more details about my coding projects!
 </p>
         <p>This portfolio is still under development, but if you wish to contact me please either send message in <a id="link" onClick={OpenInTab}  href={"https://www.linkedin.com/in/mariarosenholm/"}>LinkedIn</a>  or send me an email <a id="link" onClick={(e) => {window.location.href ='mailto:contact@mariarosenholm.com';}} href={"mailto:contact@mariarosenholm.com"}>contact@mariarosenholm.com</a></p>
-        </div>
+        </div> 
         <div id="buttons">
           <button onClick={() => {clickHandler()}} className={button1}>Tech Skills</button> 
           <button onClick={() => {clickHandler()}} className={button2}>Operational Skills</button>
